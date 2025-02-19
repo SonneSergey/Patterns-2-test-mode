@@ -21,7 +21,7 @@ public class DataGenerator {
             .setContentType(ContentType.JSON)
             .log(LogDetail.ALL)
             .build();
-    private static final Faker faker = new Faker(new Locale("en"));
+    private static final Faker faker = new Faker(new Locale("ru"));
 
     private DataGenerator() {
     }
